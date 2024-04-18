@@ -325,6 +325,50 @@ start...
 Author: Joseph Ridge 
 Target: CCE Logo, nav-container
 */
+.event-name {
+  margin-top: 100px !important;
+}
+.theme {
+  background-color: #fbb042;
+  color: #000;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: bold;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.register-btn {
+  color: #fff;
+  background-color: black; 
+  font-weight: bold;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.register-btn, a:hover {
+  text-decoration: none; /* Remove underline on hover */
+}
+
+.register {
+  margin: 20px !important;
+}
+.event-theme {
+  font-weight: bold !important;
+  text-transform: none;
+  color: #ffffff;
+  font-size: 16px !important;
+}
+hr {
+  width: 50%;
+}
 .cceLogo {
   width: 80%;
   margin-top: auto;
@@ -348,18 +392,69 @@ Target: CCE Logo, nav-container
   padding-right: 15px;
   display: inline-flex;
 }
-@media (max-width: 768px) {
-.cceLogo{
-  width: 50%;
+
+.countdown > h1 {
+  font-size: 60px !important;
 }
-.site-branding{
-  width: 85%;
+
+.countdown {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  background-color: #fbb042;
+  color: #000;
+  border-color: #000;
+  border-width: 2px;
+  border-radius: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.time {
+  text-transform: lowercase;
+  font-size: 40px !important;
+  margin-right: 5px;
+  font-weight: 100;
+}
+
+.date-location {
+  font-weight: bold;
+  text-transform: none;
+  width: 100%;
+}
+.date-location-text {
+  text-align: center;
   margin-top: auto;
   margin-bottom: auto;
-  background-color: #0fa3b8;
+}
+.location {
+  margin-right: auto;
+  margin-left: auto;
+  display: inline-flex;
+}
 
+.icon {
+  fill: #fbb042 !important;
+  padding: 5px;
 }
+
+@media (max-width: 768px) {
+  .cceLogo {
+    width: 50%;
+  }
+  .site-branding {
+    width: 85%;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #0fa3b8;
+  }
 }
+
 /*
 end...
 Author: Joseph Ridge 
@@ -391,7 +486,7 @@ Target: CCE Logo, nav-container
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .site-header .intro {
   color: #fff;
@@ -399,7 +494,7 @@ Target: CCE Logo, nav-container
   text-align: center;
   text-transform: uppercase;
   width: 100%;
-  z-index: 1;
+  /* z-index: 1; */
   padding: 0 15px;
   display: table-cell;
   vertical-align: middle;
@@ -411,8 +506,8 @@ Target: CCE Logo, nav-container
   font-weight: 300;
 }
 .site-header .intro h1 {
-  margin-top: 0px;
-  font-size: 30px;
+  margin-top: 20px;
+  font-size: 50px;
 }
 .site-header .intro p {
   font-size: 20px;
