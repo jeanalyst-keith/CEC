@@ -41,7 +41,7 @@
                     <li><a data-scroll href="#speakers">Speakers</a></li>
                     <li><a data-scroll href="#schedule">Schedule</a></li>
                     <li><a data-scroll href="#partner">Partner</a></li>
-                    <li><a data-scroll href="#">Sponsorship</a></li>
+                    <li><a data-scroll href="#sponsorhip">Sponsorship</a></li>
                     <li><a data-scroll href="#faq">FAQ</a></li>
                     <li><a data-scroll href="#photos">Photos</a></li>
                 </ul>
@@ -449,96 +449,280 @@
             </div>
         </div>
     </section>
-
-    <section id="schedule" class="section schedule">
+    <!-- propose when refactoring the code to enable decoubpling will handle in last stage  -->
+    <!-- sponsorhip include start-->
+    <!-- <div>
+    <iframe class="section-page" src="./pages/sponsorship.html"></iframe>
+    </div> -->
+    <!-- sponsorship include end -->
+    <section id="sponsorhip" class="section sponsorhip">
         <div class="container">
             <div class="row">
-                <div class="col-md-16">
+                <div class="col-md-12">
                     <h3 class="section-title">Sponsorship Categories</h3>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
+
+            <div class="row sponsorship-badges">
+                <!-- gold -->
+                <div class="sponsor-badge col-sm-3 ">
                     <div class="schedule-box">
-                        <div class="time">
-                            <h3>Gold Sponsorship: KSHS. 750,000</h3>
+                        <div class="">
+                            <h3>
+                                <div><svg width="25" height="36" viewBox="0 0 16 21" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M5.675 11.7L6.55 8.85L4.25 7H7.1L8 4.2L8.9 7H11.75L9.425 8.85L10.3 11.7L8 9.925L5.675 11.7ZM2 21V13.275C1.36667 12.575 0.875 11.775 0.525 10.875C0.175 9.975 0 9.01667 0 8C0 5.76667 0.775 3.875 2.325 2.325C3.875 0.775 5.76667 0 8 0C10.2333 0 12.125 0.775 13.675 2.325C15.225 3.875 16 5.76667 16 8C16 9.01667 15.825 9.975 15.475 10.875C15.125 11.775 14.6333 12.575 14 13.275V21L8 19L2 21ZM8 14C9.66667 14 11.0833 13.4167 12.25 12.25C13.4167 11.0833 14 9.66667 14 8C14 6.33333 13.4167 4.91667 12.25 3.75C11.0833 2.58333 9.66667 2 8 2C6.33333 2 4.91667 2.58333 3.75 3.75C2.58333 4.91667 2 6.33333 2 8C2 9.66667 2.58333 11.0833 3.75 12.25C4.91667 13.4167 6.33333 14 8 14ZM4 18.025L8 17L12 18.025V14.925C11.4167 15.2583 10.7875 15.5208 10.1125 15.7125C9.4375 15.9042 8.73333 16 8 16C7.26667 16 6.5625 15.9042 5.8875 15.7125C5.2125 15.5208 4.58333 15.2583 4 14.925V18.025Z"
+                                            fill="#D4AF37" />
+                                    </svg>
+                                </div>Gold Sponsorship<br> <span class="gold-sponsor"> KSHS. 750,000</span>
+                            </h3>
                         </div>
-                        <p>1. Exclusive Brand Visibility:
-                            • Prominent logo placement on all conference materials, including official website, banners,
-                            and promotional materials.
-                            • Recognition as a Gold Sponsor during opening and closing ceremonies.</p>
-                        <p>2. Speaker Opportunity:
-                            • Opportunity to address the audience during a designated session or panel discussion.</p>
-                        <p>3. Networking Opportunities:
-                            • Exclusive access to VIP networking events with industry leaders, speakers, and government
-                            officials.</p>
-                        <p>4. Logo on Collateral:
-                            • Logo inclusion in conference publications, press releases, and any related media coverage.
-                        </p>
-                        <p>5. Complimentary Registrations:
-                            • Complimentary conference registrations for a specified number of representatives.</p>
-                        <p>6. Dedicated Exhibition Space:
-                            • Prime location for exhibition booth placement.</p>
+                        <hr>
+                        <!-- Exclusive Brand Visibility -->
+                        <div class="sponsorhip-text">
+                            <!--  title -->
+                            <div><strong>Exclusive Brand Visibility:</strong></div>
+                            <!-- details -->
+                            <div class="sponsorhip-sub-text">Prominent logo placement on all conference materials,
+                                including official website, banners,
+                                and promotional materials.Recognition as a Gold Sponsor during opening and closing
+                                ceremonies.</div>
+                        </div>
+                        <!-- Speaker Opportunity -->
+                        <div class="sponsorhip-text">
+                            <!--  title -->
+                            <div><strong>Speaker Opportunity:</strong></div>
+                            <!-- details -->
+                            <div class="sponsorhip-sub-text">Opportunity to address the audience during a designated
+                                session or panel discussion.</div>
+                        </div>
+                        <!-- Networking Opportunities: -->
+                        <div class="sponsorhip-text">
+                            <!--  title -->
+                            <div><strong>Networking Opportunities:</strong></div>
+                            <!-- details -->
+                            <div class="sponsorhip-sub-text">Exclusive access to VIP networking events with industry
+                                leaders, speakers, and government
+                                officials.</div>
+                        </div>
+                        <!-- Logo on Collateral: -->
+                        <div class="sponsorhip-text">
+                            <!--  title -->
+                            <div><strong>Logo on Collateral:</strong></div>
+                            <!-- details -->
+                            <div class="sponsorhip-sub-text">Logo inclusion in conference publications, press releases,
+                                and any related media coverage.</div>
+                        </div>
+                        <!-- Complimentary Registrations: -->
+                        <div class="sponsorhip-text">
+                            <!--  title -->
+                            <div><strong>Complimentary Registrations:</strong></div>
+                            <!-- details -->
+                            <div class="sponsorhip-sub-text">Complimentary conference registrations for a specified
+                                number of representatives.</div>
+                        </div>
+                        <!-- Dedicated Exhibition Space: -->
+                        <div class="sponsorhip-text">
+                            <!--  title -->
+                            <div><strong>Dedicated Exhibition Space:</strong></div>
+                            <!-- details -->
+                            <div class="sponsorhip-sub-text">Prime location for exhibition booth placement.</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- silver -->
+                <div class="sponsor-badge col-sm-3">
+                    <div class="schedule-box">
+
+                        <div class="">
+                            <h3>
+                                <div><svg width="25" height="36" viewBox="0 0 16 21" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M5.675 11.7L6.55 8.85L4.25 7H7.1L8 4.2L8.9 7H11.75L9.425 8.85L10.3 11.7L8 9.925L5.675 11.7ZM2 21V13.275C1.36667 12.575 0.875 11.775 0.525 10.875C0.175 9.975 0 9.01667 0 8C0 5.76667 0.775 3.875 2.325 2.325C3.875 0.775 5.76667 0 8 0C10.2333 0 12.125 0.775 13.675 2.325C15.225 3.875 16 5.76667 16 8C16 9.01667 15.825 9.975 15.475 10.875C15.125 11.775 14.6333 12.575 14 13.275V21L8 19L2 21ZM8 14C9.66667 14 11.0833 13.4167 12.25 12.25C13.4167 11.0833 14 9.66667 14 8C14 6.33333 13.4167 4.91667 12.25 3.75C11.0833 2.58333 9.66667 2 8 2C6.33333 2 4.91667 2.58333 3.75 3.75C2.58333 4.91667 2 6.33333 2 8C2 9.66667 2.58333 11.0833 3.75 12.25C4.91667 13.4167 6.33333 14 8 14ZM4 18.025L8 17L12 18.025V14.925C11.4167 15.2583 10.7875 15.5208 10.1125 15.7125C9.4375 15.9042 8.73333 16 8 16C7.26667 16 6.5625 15.9042 5.8875 15.7125C5.2125 15.5208 4.58333 15.2583 4 14.925V18.025Z"
+                                            fill="#C0C0C0" />
+                                    </svg>
+                                </div> Silver Sponsorship<br> <span class="silver-sponsor"> KSHS. 500,000 </span>
+                            </h3>
+                        </div>
+                        <hr>
+                        <!-- brand vicsibility -->
+                        <div class="sponsorhip-text">
+                            <!--  title -->
+                            <div><strong>Brand Visibility:</strong></div>
+                            <!-- details -->
+                            <div class="sponsorhip-sub-text">Logo placement on conference materials, including official
+                                website, banners, and
+                                promotional materials.</div>
+                        </div>
+
+                        <!-- Recognistion at Events -->
+                        <div class="sponsorhip-text">
+                            <!--  title -->
+                            <div><strong>Recognition at Events:</strong></div>
+                            <!-- details -->
+                            <div class="sponsorhip-sub-text">Acknowledgment as a Silver Sponsor during specific
+                                conference events.</div>
+                        </div>
+                        <!-- Networking Opportunities: -->
+                        <div class="sponsorhip-text">
+                            <!--  title -->
+                            <div><strong>Networking Opportunities:</strong></div>
+                            <!-- details -->
+                            <div class="sponsorhip-sub-text">Access to select networking events with industry
+                                professionals and speakers.</div>
+                        </div>
+                        <!-- Logo on Collateral: -->
+                        <div class="sponsorhip-text">
+                            <!--  title -->
+                            <div><strong>Logo on Collateral:</strong></div>
+                            <!-- details -->
+                            <div class="sponsorhip-sub-text">Inclusion in conference publications and press releases.
+                            </div>
+                        </div>
+                        <!-- Complimentary Registrations: -->
+                        <div class="sponsorhip-text">
+                            <!--  title -->
+                            <div><strong>Complimentary Registrations:</strong></div>
+                            <!-- details -->
+                            <div class="sponsorhip-sub-text">Complimentary conference registrations for a specified
+                                number of representatives.</div>
+                        </div>
+                        <!-- Exhibition Booth: -->
+                        <div class="sponsorhip-text">
+                            <!--  title -->
+                            <div><strong>Exhibition Booth:</strong></div>
+                            <!-- details -->
+                            <div class="sponsorhip-sub-text">Space for an exhibition booth at the event.</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- bronze -->
+                <div class="sponsor-badge col-sm-3 col-sm-6">
+                    <div class="schedule-box">
+                        <div class="">
+                            <h3>
+                                <div><svg width="25" height="36" viewBox="0 0 16 21" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M5.675 11.7L6.55 8.85L4.25 7H7.1L8 4.2L8.9 7H11.75L9.425 8.85L10.3 11.7L8 9.925L5.675 11.7ZM2 21V13.275C1.36667 12.575 0.875 11.775 0.525 10.875C0.175 9.975 0 9.01667 0 8C0 5.76667 0.775 3.875 2.325 2.325C3.875 0.775 5.76667 0 8 0C10.2333 0 12.125 0.775 13.675 2.325C15.225 3.875 16 5.76667 16 8C16 9.01667 15.825 9.975 15.475 10.875C15.125 11.775 14.6333 12.575 14 13.275V21L8 19L2 21ZM8 14C9.66667 14 11.0833 13.4167 12.25 12.25C13.4167 11.0833 14 9.66667 14 8C14 6.33333 13.4167 4.91667 12.25 3.75C11.0833 2.58333 9.66667 2 8 2C6.33333 2 4.91667 2.58333 3.75 3.75C2.58333 4.91667 2 6.33333 2 8C2 9.66667 2.58333 11.0833 3.75 12.25C4.91667 13.4167 6.33333 14 8 14ZM4 18.025L8 17L12 18.025V14.925C11.4167 15.2583 10.7875 15.5208 10.1125 15.7125C9.4375 15.9042 8.73333 16 8 16C7.26667 16 6.5625 15.9042 5.8875 15.7125C5.2125 15.5208 4.58333 15.2583 4 14.925V18.025Z"
+                                            fill="#CD7F32" />
+                                    </svg>
+                                </div> Bronze Sponsorship <br> <span class="bronze-sponsor"> KSHS. 250,000 </span>
+                            </h3>
+                        </div>
+                        <hr>
+                        <!-- logo polacement -->
+                        <div class="sponsorhip-text">
+                            <!--  title -->
+                            <div><strong>Logo Placement:</strong></div>
+                            <!-- details -->
+                            <div class="sponsorhip-sub-text">Logo inclusion on the conference website and select
+                                promotional materials.</div>
+                        </div>
+                        <!--  acknowledgement at event -->
+                        <div class="sponsorhip-text">
+                            <!--  title -->
+                            <div><strong>Acknowledgment at Events:</strong></div>
+                            <!-- details -->
+                            <div class="sponsorhip-sub-text">Recognition as a Bronze Sponsor during the conference.
+                            </div>
+                        </div>
+                        <!-- networking opportunities -->
+                        <div class="sponsorhip-text">
+                            <!--  title -->
+                            <div><strong>Networking Opportunities:</strong></div>
+                            <!-- details -->
+                            <div class="sponsorhip-sub-text">Access to networking events with attendees and speakers.
+                            </div>
+                        </div>
+                        <!-- logo on collateral -->
+                        <div class="sponsorhip-text">
+                            <!--  title -->
+                            <div><strong>Logo on Collateral:</strong></div>
+                            <!-- details -->
+                            <div class="sponsorhip-sub-text">Inclusion in conference publications and press releases..
+                            </div>
+                        </div>
+                        <!-- complimentary registrations -->
+                        <div class="sponsorhip-text">
+                            <!--  title -->
+                            <div><strong>Complimentary Registrations:</strong></div>
+                            <!-- details -->
+                            <div class="sponsorhip-sub-text">Complimentary conference registrations for a specified
+                                number of representatives.</div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6">
-                    <div class="schedule-box">
-                        <div class="time">
-                            <h3>Silver Sponsorship: KSHS. 500,000</h3>
-                        </div>
-                        <p>1. Brand Visibility:
-                            • Logo placement on conference materials, including official website, banners, and
-                            promotional materials.</p>
-                        <p>2. Recognition at Events:
-                            • Acknowledgment as a Silver Sponsor during specific conference events.</p>
-                        <p>3. Networking Opportunities:
-                            • Access to select networking events with industry professionals and speakers.</p>
-                        <p>4. Logo on Collateral:
-                            • Inclusion in conference publications and press releases.</p>
-                        <p>5. Complimentary Registrations:
-                            • Complimentary conference registrations for a specified number of representatives.</p>
-                        <p>6. Exhibition Booth:
-                            • Space for an exhibition booth at the event.</p>
+            </div>
+            <div class="booth-page">
+                <div class="booth row">
+                    <div class="col-md-12">
+                        <h3 class="section-title">Exhibition Booth</h3>
                     </div>
                 </div>
-
-                <div class="col-md-4 col-sm-6">
+                <div class="booth-badge   ">
                     <div class="schedule-box">
-                        <div class="time">
-                            <h3>Bronze Sponsorship KSHS. 250,000</h3>
+                        <div class="">
+                            <h3>
+                                <div><svg width="26" height="25" viewBox="0 0 26 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24.6453 11.1806V22.2222C24.6453 22.9861 24.3919 23.64 23.8852 24.184C23.3784 24.728 22.7691 25 22.0575 25H3.94251C3.23086 25 2.62163 24.728 2.11484 24.184C1.60806 23.64 1.35466 22.9861 1.35466 22.2222V11.1806C0.858657 10.6944 0.47587 10.0694 0.206302 9.30556C-0.063266 8.54167 -0.0686573 7.70833 0.190128 6.80556L1.54875 2.08333C1.72127 1.48148 2.02858 0.983796 2.47067 0.590278C2.91276 0.196759 3.42494 0 4.00721 0H21.9928C22.5751 0 23.0818 0.190972 23.5132 0.572917C23.9445 0.954861 24.2572 1.45833 24.4513 2.08333L25.8099 6.80556C26.0687 7.70833 26.0633 8.53009 25.7937 9.27083C25.5241 10.0116 25.1413 10.6481 24.6453 11.1806ZM15.8466 9.72222C16.4289 9.72222 16.871 9.5081 17.1729 9.07986C17.4748 8.65162 17.5934 8.1713 17.5287 7.63889L16.8171 2.77778H14.2939V7.91667C14.2939 8.40278 14.4449 8.82523 14.7468 9.18403C15.0487 9.54282 15.4153 9.72222 15.8466 9.72222ZM10.024 9.72222C10.52 9.72222 10.9243 9.54282 11.237 9.18403C11.5497 8.82523 11.7061 8.40278 11.7061 7.91667V2.77778H9.18292L8.47126 7.63889C8.385 8.19444 8.49821 8.68056 8.81091 9.09722C9.12361 9.51389 9.52796 9.72222 10.024 9.72222ZM4.266 9.72222C4.65417 9.72222 4.99383 9.57176 5.28496 9.27083C5.5761 8.96991 5.75401 8.58796 5.81871 8.125L6.53037 2.77778H4.00721L2.71328 7.43056C2.58389 7.89352 2.65398 8.3912 2.92355 8.92361C3.19312 9.45602 3.6406 9.72222 4.266 9.72222ZM21.734 9.72222C22.3594 9.72222 22.8123 9.45602 23.0926 8.92361C23.373 8.3912 23.4377 7.89352 23.2867 7.43056L21.9281 2.77778H19.4696L20.1813 8.125C20.246 8.58796 20.4239 8.96991 20.715 9.27083C21.0062 9.57176 21.3458 9.72222 21.734 9.72222ZM3.94251 22.2222H22.0575V12.4306C21.9497 12.4769 21.8796 12.5 21.8472 12.5H21.734C21.1517 12.5 20.6396 12.3958 20.1975 12.1875C19.7554 11.9792 19.3187 11.6435 18.8874 11.1806C18.4992 11.5972 18.0571 11.9213 17.5611 12.1528C17.0651 12.3843 16.5367 12.5 15.976 12.5C15.3938 12.5 14.8492 12.3843 14.3424 12.1528C13.8357 11.9213 13.3882 11.5972 13 11.1806C12.6334 11.5972 12.2075 11.9213 11.7222 12.1528C11.237 12.3843 10.7141 12.5 10.1534 12.5C9.52796 12.5 8.96187 12.3843 8.45508 12.1528C7.9483 11.9213 7.50081 11.5972 7.11263 11.1806C6.65976 11.6667 6.21228 12.0081 5.77019 12.2049C5.32809 12.4016 4.8267 12.5 4.266 12.5H4.12043C4.06652 12.5 4.00721 12.4769 3.94251 12.4306V22.2222Z"
+                                            fill="#0FA3B8" />
+                                    </svg>
+                                </div> Exhibition Booths <br> <span class="booth-price"> KSHS. 100,000 (per booth)
+                                </span>
+                            </h3>
                         </div>
-                        <p>1. Logo Placement:
-                            • Logo inclusion on the conference website and select promotional materials.</p>
-                        <p>2. Acknowledgment at Events:
-                            • Recognition as a Bronze Sponsor during the conference.</p>
-                        <p>3. Networking Opportunities:
-                            • Access to networking events with attendees and speakers.</p>
-                        <p>4. Logo on Collateral:
-                            • Inclusion in conference publications and press releases.</p>
-                        <p>5. Complimentary Registrations:
-                            • Complimentary conference registrations for a specified number of representatives.</p>
+                        <!-- Exhibition Space: -->
+                        <div class="sponsorhip-text">
+                            <!--  title -->
+                            <div><strong>Exhibition Space</strong></div>
+                            <!-- details -->
+                            <div class="sponsorhip-sub-text">Designated space for an exhibition booth to showcase
+                                products or services.</div>
+                        </div>
+                        <!-- Brand Visibility: -->
+                        <div class="sponsorhip-text">
+                            <!--  title -->
+                            <div><strong>Brand Visibility</strong></div>
+                            <!-- details -->
+                            <div class="sponsorhip-sub-text">Logo placement on the exhibition area signage.</div>
+                        </div>
+
+                        <!-- Networking Opportunities: -->
+                        <div class="sponsorhip-text">
+                            <!--  title -->
+                            <div><strong>Networking Opportunities</strong></div>
+                            <!-- details -->
+                            <div class="sponsorhip-sub-text">Access to networking events and interactions with
+                                conference attendees.</div>
+                        </div>
+
+                        <!-- Logo on Collateral: -->
+                        <div class="sponsorhip-text">
+                            <!--  title -->
+                            <div><strong>Logo on Collateral</strong></div>
+                            <!-- details -->
+                            <div class="sponsorhip-sub-text">Inclusion in conference publications and press releases.
+                            </div>
+                        </div>
+
+                        <!-- Complimentary Registrations: -->
+                        <div class="sponsorhip-text">
+                            <!--  title -->
+                            <div><strong>Complimentary Registrations</strong></div>
+                            <!-- details -->
+                            <div class="sponsorhip-sub-text">Complimentary conference registrations for booth
+                                representatives.</div>
+                        </div>
 
                     </div>
                 </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="schedule-box">
-                        <div class="time">
-                            <h3>Exhibition Booths: KSHS. 100,000 per booth</h3>
-                        </div>
-                        <p>1. Exhibition Space:
-                            • Designated space for an exhibition booth to showcase products or services.</p>
-                        <p>2. Brand Visibility:
-                            • Logo placement on the exhibition area signage.</p>
-                        <p>3. Networking Opportunities:
-                            • Access to networking events and interactions with conference attendees.</p>
-                        <p>4. Logo on Collateral:
-                            • Inclusion in conference publications and press releases.</p>
-                        <p>5. Complimentary Registrations:
-                            • Complimentary conference registrations for booth representatives.</p>
-                    </div>
-                </div>
+            </div>
     </section>
 
     <section id="faq" class="section faq">
@@ -616,7 +800,7 @@
 
                             <div id="collapseFour" class="panel-collapse collapse" role="tabpanel"
                                 aria-labelledby="headingFour">
-                                <div class="panel-body">Hello</div>
+                                <div class="panel-body">Smart Casual</div>
                             </div>
                         </div>
 
@@ -632,7 +816,11 @@
 
                             <div id="collapseFive" class="panel-collapse collapse" role="tabpanel"
                                 aria-labelledby="headingFive">
-                                <div class="panel-body">Hello</div>
+                                <div class="panel-body">
+                                    Kindly either call <span class="contact">+254 720119160</span>or email <span class="contact">civilconference24@uonbi.ac.ke</span>
+                                    <!--  phoneNumber -->
+                                    <!-- email -->
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -716,8 +904,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <p class="site-info">Designed and <br> Developed by <a href="https://jayafriquetec-hub.web.app/">JayAfrique TechUB
-                            </a></p>
+                    <p class="site-info">Designed and <br> Developed by <a
+                            href="https://jayafriquetec-hub.web.app/">JayAfrique TechUB
+                        </a></p>
                     <ul class="social-block">
                         <!-- <li><a href=""><i class="ion-social-twitter"></i></a></li>
                         <li><a href=""><i class="ion-social-facebook"></i></a></li>

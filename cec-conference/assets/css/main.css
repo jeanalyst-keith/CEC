@@ -456,7 +456,95 @@ hr {
     background-color: #0fa3b8;
   }
 }
+.sponsorhip-text{
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.gold-sponsor{
+  background-color: gold;
+  padding-left: 20px;
+  padding-right:20px;
+  border-radius: 20px;
+  padding-top: 2px; 
+  padding-bottom: 2px;
+  font-size: 16px;
+  color: #000;
+}
+.silver-sponsor{
+  background-color: silver;
+  padding-left: 20px;
+  padding-right:20px;
+  border-radius: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 16px;
+  color: #000;
+}
+.bronze-sponsor{
+  background-color: #CD7F32;
+  padding-left: 20px;
+  padding-right:20px;
+  border-radius: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 16px;
+  color: #000;
+}
+.sponsorhip-sub-text{
+  color: #c0c0c0; 
+  font-size: 14px;
+}
+.booth-price{
+  background-color: #0fa3b8;
+  padding-left: 20px;
+  padding-right:20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 20px;
+  font-size: 16px;
+  color: #000;
+}
 
+.section-page{ 
+  width: 100vw ;
+  height: 100vh;
+}
+
+.sponsorhip{
+  background-color: #ffffff ;  
+}
+.sponsorship-badges{ 
+  margin-left: auto;
+  margin-right: auto; 
+}
+.sponsor-badge{   
+  margin: 10px;
+}
+.contact{
+  background-color: #fbb042; 
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right:10px;
+  border-radius: 20px;
+  padding-top: 2px; 
+  padding-bottom: 2px;
+  font-size: 16px;
+  color: #000;
+  margin-left: 4px;
+  margin-right: 4px;
+
+}
+.booth-badge{
+  background-color: #0fa3b8;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.booth{
+  margin-top: 24px;
+}
 /*
 end...
 Author: Joseph Ridge 
@@ -590,10 +678,11 @@ Target: CCE Logo, nav-container
  */
 .schedule-box {
   position: relative;
-  background-color: #000;
+  background-color: #000; 
   color: #fff;
+  border-radius: 8px;
   text-align: center;
-  padding: 50px 0;
+  padding: 50px 20px; 
   margin: 25px 0 0;
 }
 .schedule-box::before {
@@ -603,7 +692,8 @@ Target: CCE Logo, nav-container
   right: 5px;
   bottom: 5px;
   left: 5px;
-  border: 1px solid #fff;
+  border: 1px solid #fbb042;
+  border-radius: 8px;
 }
 
 /* 
