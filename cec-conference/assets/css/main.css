@@ -545,6 +545,93 @@ hr {
 .booth{
   margin-top: 24px;
 }
+ 
+.registration-btn {
+  color: #000;
+  background-color: #fbb042; 
+  font-weight: bold;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  border: 2px solid #fff; 
+  margin: 0 20px;
+  padding-bottom: 20px;
+}
+.registration-btn:hover{
+   /* color:#fff; */   
+  border: 2px solid #000; 
+  color: #000; 
+}
+.registration-btn> a:hover {
+  text-decoration: none; /* Remove underline on hover */
+}
+
+.abstract-title{
+  color:#000000;
+}
+
+.contribution {
+  text-align: center;
+  color: #fff;
+  background-color: #c0c0c0;
+}
+.about-theme{
+  background-color: #000;
+  color:#fff;
+  width: fit-content;   
+  padding-right: 16px;
+  padding-top: 6px;
+  padding-bottom: 4px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: bold;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.attendance-section{
+  background-color: #000;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  margin-top: 10px;
+
+}
+.sub-theme{
+  /* display: inline; */
+  color: #000;
+
+}
+.sub-themes{
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.subtheme-item{
+  /* display:flex;  */
+  /* background-color: #000;
+  border-top-left-radius: 100%; */
+  /* padding-left: 10%; */
+}
+.sub-theme-text{ 
+  margin-top: auto;
+  font-size: 20px;
+  margin-bottom: auto;
+  margin-left: 20px;
+}
+.subtheme-image{
+  width: 70px;
+  height: 70px; 
+  /* background-color: #000000; */
+  border: 2px solid white;
+  border-radius: 100%;
+  padding: 10px;
+  margin: 5px;
+}
 /*
 end...
 Author: Joseph Ridge 
@@ -668,11 +755,6 @@ Target: CCE Logo, nav-container
 /* 
  * 6.5 Section: Contribution
  */
-.contribution {
-  text-align: center;
-  color: #fff;
-}
-
 /* 
  * 6.6 Section: Schedule
  */
