@@ -347,6 +347,8 @@ Target: CCE Logo, nav-container
 .register-btn {
   color: #fff;
   background-color: black; 
+  border: 1px solid #fbb042; /* Set border color and width */
+  border-width: 2px;
   font-weight: bold;
   padding-left: 40px;
   padding-right: 40px;
