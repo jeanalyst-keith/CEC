@@ -2,6 +2,7 @@
  * 1. Google Font
  */
 @import url(http://fonts.googleapis.com/css?family=Roboto:300,400,700);
+
 /* 
  * 2.0 Global Style
  */
@@ -23,6 +24,7 @@ body {
 a {
   color: #000;
 }
+
 a:focus {
   outline: none;
 }
@@ -50,11 +52,13 @@ ul li {
   list-style-type: none;
   padding: 0;
 }
+
 .custom-list-icon li,
 .list-arrow-right li {
   position: relative;
   padding-left: 20px;
 }
+
 .custom-list-icon li::before,
 .list-arrow-right li::before {
   position: absolute;
@@ -67,18 +71,22 @@ ul li {
   list-style-type: none;
   padding: 0;
 }
+
 .social-block li {
   display: inline-block;
 }
+
 .social-block li a {
   display: inline-block;
   height: 32px;
   width: 32px;
   color: #4e4e4e;
 }
+
 .social-block li a i {
   font-size: 1.5em;
 }
+
 .social-block li a:hover,
 .social-block li a:focus {
   color: #000;
@@ -108,6 +116,7 @@ ul li {
   -webkit-transition-property: -webkit-transform;
   transition-property: transform;
 }
+
 .btn:hover {
   -webkit-transform: scale(0.9);
   -ms-transform: scale(0.9);
@@ -122,6 +131,7 @@ ul li {
   font-size: 16px;
   line-height: 1.6;
 }
+
 .form-control:focus {
   box-shadow: none;
   border-color: #ccc;
@@ -198,6 +208,7 @@ ul li {
   color: #000;
   background-color: #fff;
 }
+
 .btn-white:hover,
 .btn-white:focus {
   color: #000;
@@ -208,6 +219,7 @@ ul li {
   color: #fff;
   background-color: #000;
 }
+
 .btn-black:hover,
 .btn-black:focus {
   color: #fff;
@@ -222,6 +234,7 @@ ul li {
 .bg-image-2 {
   position: relative;
 }
+
 .bg-image::before,
 .bg-image-1::before,
 .bg-image-2::before {
@@ -236,6 +249,7 @@ ul li {
 .bg-image-1 {
   background: url(../images/backgrounds/bg-1.jpg) no-repeat center center/cover;
 }
+
 .bg-image-1::before {
   background-color: rgba(0, 0, 0, 0.7);
 }
@@ -243,6 +257,7 @@ ul li {
 .bg-image-2 {
   background: url(../images/backgrounds/bg-2.jpg) no-repeat center bottom/cover;
 }
+
 .bg-image-2::before {
   background-color: rgba(0, 0, 0, 0.7);
 }
@@ -260,6 +275,7 @@ ul li {
     text-align: left;
   }
 }
+
 /* 
  * 4.0 Navigation
  */
@@ -272,22 +288,26 @@ ul li {
   -webkit-transition: all 0.2s linear 0s;
   transition: all 0.2s linear 0s;
 }
+
 .navbar-custom .navbar-nav li {
   margin: 0;
 }
-.navbar-custom .navbar-nav > li > a {
+
+.navbar-custom .navbar-nav>li>a {
   color: #fff;
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 400;
   border-bottom: 1px solid transparent;
 }
-.navbar-custom .navbar-nav > li > a:focus,
-.navbar-custom .navbar-nav > li > a:hover {
+
+.navbar-custom .navbar-nav>li>a:focus,
+.navbar-custom .navbar-nav>li>a:hover {
   background-color: transparent;
   border-color: rgba(255, 255, 255, 0.5);
 }
-.navbar-custom .navbar-nav > .active > a {
+
+.navbar-custom .navbar-nav>.active>a {
   border-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -296,6 +316,7 @@ ul li {
   border-radius: 0;
   margin-top: 2px;
 }
+
 .navbar-toggle .icon-bar {
   background-color: #fff;
 }
@@ -312,6 +333,7 @@ ul li {
   margin-top: 0;
   margin-left: 10px;
 }
+
 .site-branding .logo {
   color: #fff;
   font-size: 14px;
@@ -320,6 +342,7 @@ ul li {
   letter-spacing: 3px;
   text-transform: uppercase;
 }
+
 /*
 start...
 Author: Joseph Ridge 
@@ -328,6 +351,7 @@ Target: CCE Logo, nav-container
 .event-name {
   margin-top: 100px !important;
 }
+
 .theme {
   background-color: #fbb042;
   color: #000;
@@ -344,10 +368,12 @@ Target: CCE Logo, nav-container
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
 .register-btn {
   color: #fff;
-  background-color: black; 
-  border: 1px solid #fbb042; /* Set border color and width */
+  background-color: black;
+  border: 1px solid #fbb042;
+  /* Set border color and width */
   border-width: 2px;
   font-weight: bold;
   padding-left: 40px;
@@ -355,22 +381,28 @@ Target: CCE Logo, nav-container
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.register-btn, a:hover {
-  text-decoration: none; /* Remove underline on hover */
+
+.register-btn,
+a:hover {
+  text-decoration: none;
+  /* Remove underline on hover */
 }
 
 .register {
   margin: 20px !important;
 }
+
 .event-theme {
   font-weight: bold !important;
   text-transform: none;
   color: #ffffff;
   font-size: 16px !important;
 }
+
 hr {
   width: 50%;
 }
+
 .cceLogo {
   width: 80%;
   margin-top: auto;
@@ -379,6 +411,7 @@ hr {
   margin-left: 15px;
   border-radius: 5px;
 }
+
 #navbar-items {
   width: 100%;
   margin-top: auto;
@@ -386,6 +419,7 @@ hr {
   margin-right: 15px;
   margin-left: 15px;
 }
+
 #nav-container {
   width: 100%;
   margin-left: auto;
@@ -395,7 +429,7 @@ hr {
   display: inline-flex;
 }
 
-.countdown > h1 {
+.countdown>h1 {
   font-size: 60px !important;
 }
 
@@ -429,11 +463,13 @@ hr {
   text-transform: none;
   width: 100%;
 }
+
 .date-location-text {
   text-align: center;
   margin-top: auto;
   margin-bottom: auto;
 }
+
 .location {
   margin-right: auto;
   margin-left: auto;
@@ -449,6 +485,7 @@ hr {
   .cceLogo {
     width: 50%;
   }
+
   .site-branding {
     width: 85%;
     margin-top: auto;
@@ -456,50 +493,56 @@ hr {
     background-color: #0fa3b8;
   }
 }
-.sponsorhip-text{
+
+.sponsorhip-text {
   text-align: left;
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
 }
-.gold-sponsor{
+
+.gold-sponsor {
   background-color: gold;
   padding-left: 20px;
-  padding-right:20px;
+  padding-right: 20px;
   border-radius: 20px;
-  padding-top: 2px; 
+  padding-top: 2px;
   padding-bottom: 2px;
   font-size: 16px;
   color: #000;
 }
-.silver-sponsor{
+
+.silver-sponsor {
   background-color: silver;
   padding-left: 20px;
-  padding-right:20px;
+  padding-right: 20px;
   border-radius: 20px;
   padding-top: 2px;
   padding-bottom: 2px;
   font-size: 16px;
   color: #000;
 }
-.bronze-sponsor{
-  background-color: #CD7F32;
+
+.bronze-sponsor {
+  background-color: #cd7f32;
   padding-left: 20px;
-  padding-right:20px;
+  padding-right: 20px;
   border-radius: 20px;
   padding-top: 2px;
   padding-bottom: 2px;
   font-size: 16px;
   color: #000;
 }
-.sponsorhip-sub-text{
-  color: #c0c0c0; 
+
+.sponsorhip-sub-text {
+  color: #c0c0c0;
   font-size: 14px;
 }
-.booth-price{
+
+.booth-price {
   background-color: #0fa3b8;
   padding-left: 20px;
-  padding-right:20px;
+  padding-right: 20px;
   padding-top: 2px;
   padding-bottom: 2px;
   border-radius: 20px;
@@ -507,78 +550,116 @@ hr {
   color: #000;
 }
 
-.section-page{ 
-  width: 100vw ;
+.section-page {
+  width: 100vw;
   height: 100vh;
 }
 
-.sponsorhip{
-  background-color: #ffffff ;  
+.sponsorhip {
+  background-color: #ffffff;
 }
-.sponsorship-badges{ 
+
+.sponsorship-badges {
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
 }
-.sponsor-badge{   
+
+.sponsor-badge {
   margin: 10px;
 }
-.contact{
-  background-color: #fbb042; 
+
+.contact {
+  background-color: #fbb042;
   font-weight: bold;
   padding-left: 10px;
-  padding-right:10px;
+  padding-right: 10px;
   border-radius: 20px;
-  padding-top: 2px; 
+  padding-top: 2px;
   padding-bottom: 2px;
   font-size: 16px;
   color: #000;
   margin-left: 4px;
   margin-right: 4px;
-
 }
-.booth-badge{
+
+.booth-badge {
   background-color: #0fa3b8;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
-.booth{
+
+.subtheme-title{
+font-weight: bold;
+color: #000;
+margin-top: 5px;
+margin-bottom: 5px; 
+}
+
+.about-us {
+  width: 100%;
+  height: 10px;
+  object-fit: cover;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.booth {
   margin-top: 24px;
 }
- 
-.registration-btn {
+
+.submit-abstract {
   color: #000;
-  background-color: #fbb042; 
+  background-color: #fbb042;
   font-weight: bold;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 20px;
-  border: 2px solid #fff; 
+  border: 2px solid #fff;
   margin: 0 20px;
   padding-bottom: 20px;
 }
-.registration-btn:hover{
-   /* color:#fff; */   
-  border: 2px solid #000; 
-  color: #000; 
-}
-.registration-btn> a:hover {
-  text-decoration: none; /* Remove underline on hover */
+
+.info {
+  font-weight: bold;
 }
 
-.abstract-title{
-  color:#000000;
+.registration-btn {
+  color: #000;
+  background-color: #fbb042;
+  font-weight: bold;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  border: 2px solid #fff;
+  margin: 0 20px;
+  padding-bottom: 20px;
+}
+
+.registration-btn:hover {
+  /* color:#fff; */
+  border: 2px solid #000;
+  color: #000;
+}
+
+.registration-btn>a:hover {
+  text-decoration: none;
+  /* Remove underline on hover */
+}
+
+.abstract-title {
+  color: #000000;
 }
 
 .contribution {
   text-align: center;
   color: #fff;
-  background-color: #c0c0c0;
+  background-color: #f5f5f5;
 }
-.about-theme{
+
+.about-theme {
   background-color: #000;
-  color:#fff;
-  width: fit-content;   
+  color: #fff;
+  width: fit-content;
   padding-right: 16px;
   padding-top: 6px;
   padding-bottom: 4px;
@@ -592,46 +673,66 @@ hr {
   margin-bottom: 5px;
 }
 
-.attendance-section{
+.attendance-section {
   background-color: #000;
   display: flex;
   justify-items: center;
   justify-content: center;
   margin-top: 10px;
-
 }
-.sub-theme{
+
+.sub-theme {
   /* display: inline; */
-  color: #000;
-
+  color: #000; 
 }
-.sub-themes{
+
+.sub-themes {
   text-align: left;
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
 }
-.subtheme-item{
+
+.subtheme-item {
   /* display:flex;  */
   /* background-color: #000;
   border-top-left-radius: 100%; */
   /* padding-left: 10%; */
 }
-.sub-theme-text{ 
+
+.sub-theme-text {
   margin-top: auto;
-  font-size: 20px;
+  font-size: 16px;
   margin-bottom: auto;
-  margin-left: 20px;
+  margin-left: 20px;   
 }
-.subtheme-image{
+
+.subtheme-image {
   width: 70px;
   height: 70px; 
-  /* background-color: #000000; */
-  border: 2px solid white;
+  border: 2px solid #616161;
   border-radius: 100%;
   padding: 10px;
   margin: 5px;
 }
+.maps{
+  width: 100%; 
+  border-radius: 20px;
+}
+.event-location{
+  padding-left: 5%; 
+}
+.ion-ios-calendar {
+  color: #fbb042; /* Change to your desired color */
+}
+.facts-text{
+  font-weight: bold !important;
+}
+.conference-video{
+  width: 80%; 
+  margin-left: 10%; 
+}/* Reset default margin and padding */
+
 /*
 end...
 Author: Joseph Ridge 
@@ -652,10 +753,10 @@ Target: CCE Logo, nav-container
   min-height: 100vh;
   position: relative;
   text-align: center;
-  background: url(../images/backgrounds/header.jpg) no-repeat center
-    center/cover;
+  background: url(../images/backgrounds/header.jpg) no-repeat center center/cover;
   display: table;
 }
+
 .site-header::before {
   content: "";
   position: absolute;
@@ -665,6 +766,7 @@ Target: CCE Logo, nav-container
   left: 0;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
 .site-header .intro {
   color: #fff;
   position: relative;
@@ -677,15 +779,18 @@ Target: CCE Logo, nav-container
   vertical-align: middle;
   height: 100vh;
 }
+
 .site-header .intro h2 {
   margin-top: 0px;
   font-size: 25px;
   font-weight: 300;
 }
+
 .site-header .intro h1 {
   margin-top: 20px;
   font-size: 50px;
 }
+
 .site-header .intro p {
   font-size: 20px;
   margin-bottom: 10px;
@@ -703,6 +808,7 @@ Target: CCE Logo, nav-container
     margin-left: 0;
   }
 }
+
 /* 
  * 6.0 Section
  */
@@ -712,6 +818,7 @@ Target: CCE Logo, nav-container
 .about .section-title {
   margin: 0 0 25px;
 }
+
 .about figure {
   margin-bottom: 25px;
 }
@@ -723,6 +830,7 @@ Target: CCE Logo, nav-container
   color: #fff;
   font-size: 3em;
 }
+
 .facts h3 {
   color: #fff;
   text-align: center;
@@ -738,13 +846,16 @@ Target: CCE Logo, nav-container
   text-transform: uppercase;
   margin: 25px 0;
 }
+
 .speaker h4 {
   margin-top: 15px;
   margin-bottom: 5px;
 }
+
 .speaker p {
   margin-bottom: 5px;
 }
+
 .speaker img:hover {
   opacity: 0.7;
 }
@@ -760,13 +871,14 @@ Target: CCE Logo, nav-container
  */
 .schedule-box {
   position: relative;
-  background-color: #000; 
+  background-color: #000;
   color: #fff;
   border-radius: 8px;
   text-align: center;
-  padding: 50px 20px; 
+  padding: 50px 20px;
   margin: 25px 0 0;
 }
+
 .schedule-box::before {
   content: "";
   position: absolute;
@@ -784,6 +896,7 @@ Target: CCE Logo, nav-container
 .partner {
   background-color: #f8f8f8;
 }
+
 .partner .partner-box {
   display: block;
   opacity: 0.3;
@@ -793,40 +906,41 @@ Target: CCE Logo, nav-container
   -webkit-transition: 0.5s all linear;
   transition: 0.5s all linear;
 }
+
 .partner .partner-box:hover {
   opacity: 1;
 }
+
 .partner .partner-box-1 {
-  background: url(../images/partner/partner-1.png) no-repeat center
-    center/contain;
+  background: url(../images/partner/partner-1.png) no-repeat center center/contain;
 }
+
 .partner .partner-box-2 {
-  background: url(../images/partner/partner-2.png) no-repeat center
-    center/contain;
+  background: url(../images/partner/partner-2.png) no-repeat center center/contain;
 }
+
 .partner .partner-box-3 {
-  background: url(../images/partner/partner-3.png) no-repeat center
-    center/contain;
+  background: url(../images/partner/partner-3.png) no-repeat center center/contain;
 }
+
 .partner .partner-box-4 {
-  background: url(../images/partner/partner-4.png) no-repeat center
-    center/contain;
+  background: url(../images/partner/partner-4.png) no-repeat center center/contain;
 }
+
 .partner .partner-box-5 {
-  background: url(../images/partner/partner-5.png) no-repeat center
-    center/contain;
+  background: url(../images/partner/partner-5.png) no-repeat center center/contain;
 }
+
 .partner .partner-box-6 {
-  background: url(../images/partner/partner-6.png) no-repeat center
-    center/contain;
+  background: url(../images/partner/partner-6.png) no-repeat center center/contain;
 }
+
 .partner .partner-box-7 {
-  background: url(../images/partner/partner-7.png) no-repeat center
-    center/contain;
+  background: url(../images/partner/partner-7.png) no-repeat center center/contain;
 }
+
 .partner .partner-box-8 {
-  background: url(../images/partner/partner-8.png) no-repeat center
-    center/contain;
+  background: url(../images/partner/partner-8.png) no-repeat center center/contain;
 }
 
 /* 
@@ -835,6 +949,7 @@ Target: CCE Logo, nav-container
 .faq .panel-heading {
   cursor: pointer;
 }
+
 .faq .faq-toggle.collapsed::before {
   font-family: "Ionicons";
   content: "\f218";
@@ -843,23 +958,27 @@ Target: CCE Logo, nav-container
   position: absolute;
   left: 15px;
 }
+
 .faq .faq-toggle::before {
   position: absolute;
   left: 15px;
   font-family: "Ionicons";
   content: "\f209";
 }
-.faq .panel-group .panel + .panel {
+
+.faq .panel-group .panel+.panel {
   margin-top: 15px;
 }
-.faq .panel-default > .panel-heading {
+
+.faq .panel-default>.panel-heading {
   color: #fff;
   background-color: #000000;
   border-color: #000;
   border-radius: 0;
   padding: 0;
 }
-.faq .panel-default > .panel-heading a {
+
+.faq .panel-default>.panel-heading a {
   position: relative;
   display: block;
   text-decoration: none;
@@ -874,6 +993,7 @@ Target: CCE Logo, nav-container
   padding: 0;
   margin: 0;
 }
+
 .grid::after {
   content: "";
   display: block;
@@ -905,6 +1025,7 @@ Target: CCE Logo, nav-container
     margin-bottom: 0;
   }
 }
+
 @media (min-width: 992px) {
   .schedule-box {
     margin: 0;
@@ -918,6 +1039,7 @@ Target: CCE Logo, nav-container
     width: 25%;
   }
 }
+
 /* 
  * 7.0 Site-footer
  */
@@ -927,16 +1049,20 @@ Target: CCE Logo, nav-container
   text-align: center;
   padding: 30px 0;
 }
+
 .site-footer .site-info {
   font-weight: 400;
   margin-bottom: 10px;
 }
+
 .site-footer .site-info a {
   color: #fff;
 }
+
 .site-footer .social-block li a {
   color: #fff;
 }
+
 .site-footer .social-block li a:hover,
 .site-footer .social-block li a:focus {
   opacity: 0.8;
