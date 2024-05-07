@@ -67,12 +67,12 @@ $('#registration-form').submit(function(e){
 */
 
 smoothScroll.init();
-
+ 
 
 /**
  * Countdown Timer Logic
  * Author: Joseph Ridge
- */
+*/
 
 
 // Set the date we're counting down to
