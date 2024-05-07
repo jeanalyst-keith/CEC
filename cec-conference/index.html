@@ -585,58 +585,164 @@
                 </div>
             </div>
 
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
-                        type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
-                        type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact"
-                        type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
-                </li>
-            </ul>
-            <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
-                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+            <!--  tabs-->
+
+            <div class="w3-bar w3-black">
+                <button class="w3-bar-item w3-button" onclick="openDate('day1')">Day 1: 27th June 2024 </button>
+                <button class="w3-bar-item w3-button" onclick="openDate('day2')">Day 2: 28th June 2024</button>
+            </div>
+            <!-- schedule -->
+
+            <div id="day1" class="eventDay">
+                <div onclick="this.parentElement.style.display='none'" class="close">&times;</div>
+                <h2 class="day">Day 1</h2>
+                <table>
+                    <tr>
+                        <th>Time</th>
+                        <th>Event</th>
+                    </tr>
+                    <tr>
+                        <td>08:30 - 9:30 AM</td>
+                        <td>Registration</td>
+                    </tr>
+                    <tr>
+                        <td>09:30 - 10:30 AM</td>
+                        <td>
+                            <div>Opening Ceremony</div>
+                            <ul>
+                                <li>Introduction to the Conference by the MC</li>
+                                <li>Welcome Address by host, Chair Department of Civil and Construction Engineering, Dr. Simpson N. Osano</li>
+                                <li>Opening Remark by Dean, Faculty of Engineering, Prof. Ayub Gitau</li>
+                                <li>Opening Remark by Engineers Board of Kenya CEO/Registrar, Eng. Margaret Ogai</li>
+                                <li>Guest of Honour Address</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>10:30 - 11:30 AM</td>
+                        <td>
+                            <div>Keynote Session</div>
+                            <ul>
+                                <li>Keynote Speech 1: "Washington Accord and Accreditation of programmes" by EBK Representative</li>
+                                <li>Keynote Speech 2: "Innovation in Civil and Construction Engineering: A Global Perspective" by Department Technical Lead</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>11:00 AM - 12:30 PM</td>
+                        <td>
+                            <div>Session 1 - Affordable Housing Solutions</div>
+                            <ul>
+                                <li>Key Note Speech by National Construction Authority CEO Eng. Maurice Akech on "Innovative Approaches to Affordable Housing"</li>
+                                <li>Paper Presentation by Tashfeen Ahmad on "Reviewing Digital Twins in the Age of Construction 5.0"</li>
+                                <li>4-member Expert Panel Discussion on Affordable Housing Challenges and Solutions</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>12:30 - 01:30 PM</td>
+                        <td>Lunch Break</td>
+                    </tr>
+                    <tr>
+                        <td>01:30 - 05:00 PM</td>
+                        <td>
+                            <div>Session 2 - Safe and Resilient Road Infrastructure</div>
+                            <ul>
+                                <li>Key Note Speech by Kenya National Highways Authority DG Eng. Kung’u Ndung’u on "Climate Resilience in Road Infrastructure"</li>
+                                <li>Key Note Speech by Prof. Washington Yotto, EBS, FREng – Imperial College London on "Sustainable Smart Cities: Leveraging on Digital Platforms and Best Practices"</li>
+                                <li>Key Note Speech by NAMATA DG Eng. Francis Gitau on "Urban Transportation and Mobility"</li>
+                                <li>Paper Presentation by Eng. Elijah Ochieng on "Application of Building Information Modelling in Developing Smart and Efficient Transportation Systems and Mobility"</li>
+                                <li>Paper Presentation by Mr. Martin Taani Marseli on "Evaluation of the Quality of Service of Informal Public Transport (IPT)"</li>
+                                <li>Paper Presentation by Mr. William Majani Wambulwa on "Towards a Safer Future: Developing a Comprehensive Framework for Road Safety Improvement in Kenya"</li>
+                                <li>Paper Presentation by Mr. Billy Kipchirchir Koech on "Development of a Decision Support System for California Bearing Ratio Prediction Using Machine Learning"</li>
+                                <li>Paper Presentation by NAMATA on "Assessing current state and needs on public transport among vulnerable road users in the Nairobi metropolitan area"</li>
+                                <li>Paper Presentation by NAMATA on "Integrating informal transport modes into formal BRT systems: challenges and opportunities in Nairobi’s urban transport landscape - a case study of mass rapid transit system corridor 2 (Thika road)"</li>
+                                <li>Paper Presentation by NAMATA on "The Economic Benefits of Integration (Multimodal Trips) In Public Transportation"</li>
+                                <li>Paper Presentation by Mr. Martin Ndegwa Mwangion "Cost benefit analysis of electric buses in Nairobi, Kenya. Case study: pilot bus rapid transit (BRT) line 2"</li>
+                                <li>Paper Presentation by Edwin Mararo Lekariap on "Road Safety in Urban Road Links with The Impacts of Side Friction Factors: A Case Study of Nakuru City"</li>
+                                <li>Paper Presentation by I. Karoki, N. Kimaiyo, W. Maranga, T. Munene on "HALISI: Deep Learning and Multidisciplinary ESG for Climate Resilience"</li>
+                                <li>Paper Presentation by Amani Charity Kabare W on "Innovative Urban Infrastructure Design Using Physarum-Inspired Modelling"</li>
+                                <li>Paper Presentation by Omondi H. Hilda Achieng on "Building a Cycling Culture in Nairobi: A Case Study of Nairobi Central Business District"</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>05:00 - 06:00 PM</td>
+                        <td>Networking and Exhibition</td>
+                    </tr>
+                </table>
             </div>
 
-            <!-- to be removed @author: Joseph Ridge -start -->
-            <!-- <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="schedule-box">
-                        <div class="time">
-                            <time datetime="09:00">09:00 am</time> - <time datetime="22:00">10:00 am</time>
-                        </div>
-                        <h3>Welcome and intro</h3>
-                        <p>Mustafizur Khan, SD Asia</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="schedule-box">
-                        <div class="time">
-                            <time datetime="10:00">10:00 am</time> - <time datetime="22:00">10:00 am</time>
-                        </div>
-                        <h3>Tips and share</h3>
-                        <p>Mustafizur Khan, SD Asia</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="schedule-box">
-                        <div class="time">
-                            <time datetime="10:00">10:00 am</time> - <time datetime="22:00">10:00 am</time>
-                        </div>
-                        <h3>View from the top</h3>
-                        <p>Mustafizur Khan, SD Asia</p>
-                    </div>
-                </div>
-            </div> -->
-            <!-- to be removed @author: Joseph Ridge -end -->
-
+            <div id="day2" class="w3-container w3-display-container eventDay" style="display:none">
+                <span onclick="this.parentElement.style.display='none'" class="close">&times;</span>
+                <h2 class="day">Day 2</h2>
+                <table>
+                    <tr>
+                        <th>Time</th>
+                        <th>Event</th>
+                    </tr>
+                    <tr>
+                        <td>09:00 - 10:30 AM</td>
+                        <td>
+                            <div>Session 3 - Multi-disciplinary Approach to Climate Resilient Infrastructure</div>
+                            <ul>
+                                <li>Key Note Speech by Christopher Kost – ITDP Director Africa on "Integrating Climate Science into Infrastructure Development"</li>
+                                <li>Key Note Speech by Eng. Peter Njenga KENGEN CEO on "Green Infrastructure: Strategies for Climate Resilience"</li>
+                                <li>Key Note Speech by Dr. (Eng.) John Mativo – KETRACO CEO on "Integrating Renewable Energy Infrastructure into National Grids: Strategies for Climate Resilience and Sustainable Development"</li>
+                                <li>Key Note Speech by Dennis Wakaba from Roam Electric on "E-Mobility Research and Implementation in African Context"</li>
+                                <li>4-member expert Panel Discussion on Climate Resilient Infrastructure Development</li>
+                                    <ul>
+                                        <li>Christopher Kost</li>
+                                        <li>Eng. Peter Njenga</li>
+                                        <li>Dr. (Eng.) John Mativo</li>
+                                        <li>Dennis Wakaba</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>12:30 - 01:30 PM</td>
+                        <td>Lunch Break</td>
+                    </tr>
+                    <tr>
+                        <td>01:30 - 03:00 PM</td>
+                        <td>
+                            <div>Session 4 - Quality Drinking Water for All</div>
+                            <ul>
+                                <li>Key Note Speech by the Chief Executive Officer Tana Water Works Development Agency: Eng. Philip Gichuki, MBS on "Technological Interventions for Safe Drinking Water Supply"</li>
+                                <li>Presentation by Davis and Shirtliff Group Water Treatment Manager Mr. Elvis Khamala</li>
+                                <li>4-member expert Panel Discussion on Achieving Universal Access to Quality Drinking Water</li>
+                                    <ul>
+                                        <li>Eng. Philip Gichuki – CEO TWWDA</li>
+                                        <li>Mr. Elvis Khamala - Davis and Shirtliff Group</li>
+                                        <li>MS. Jackline Kemunto – CEO LVSWWDA</li>
+                                        <li>Edwin Cheruiyot Rotich – CEO NRVWWDA</li>
+                                    </ul>
+                                </li>
+                                <li>Paper Presentation by Lydia Pauline Wanjira Kariuki on "Integrated Water Resources Management for Quality Drinking Water: Advancing Tana Basin Infrastructure for Kenya's Economic Growth"</li>
+                                <li>Paper Presentation by Mwesigwa Timothy Maxwell on "Effectiveness of Using GIS and Remote Sensing to Identify Landslide Prone Areas in Bududa District"</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>03:00 - 04:30 PM</td>
+                        <td>
+                            <div>Closing Ceremony</div>
+                            <ul>
+                                <li>Recap of Conference Highlights by Rapporteurs</li>
+                                <li>Acknowledgment of Sponsors and Partners</li>
+                                <li>Award Ceremony for Cutting-Edge Research</li>
+                                <li>Closing Remarks by Dr. Simpson N. Osano</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>04:30 PM</td>
+                        <td>Networking and Exhibition</td>
+                    </tr>
+                </table>
+            </div>
     </section>
 
     <section id="partner" class="section partner">
@@ -673,7 +779,7 @@
                 </div>
                 <div class="col-sm-3">
                     <a class="partner-box partner-box-8"></a>
-                </div> 
+                </div>
             </div>
             <div class="row">
                 <div class="col-sm-3">
@@ -687,7 +793,7 @@
                 </div>
                 <div class="col-sm-3">
                     <a class="partner-box partner-box-12"></a>
-                </div> 
+                </div>
             </div>
     </section>
     <!-- propose when refactoring the code to enable decoubpling will handle in last stage  -->
@@ -1082,23 +1188,23 @@
                     <ul class="grid">
 
                         <li class="grid-item grid-item-sm-6">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-1.jpg">
+                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photo-1.jpg">
                         </li>
 
                         <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-2.jpg">
+                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photo-2.jpg">
                         </li>
 
                         <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-3.jpg">
+                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photo-3.jpg">
                         </li>
 
                         <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-5.jpg">
+                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photo-5.jpg">
                         </li>
 
                         <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-6.jpg">
+                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photo-6.jpg">
                         </li>
 
                         <li class="grid-item grid-item-sm-3">
