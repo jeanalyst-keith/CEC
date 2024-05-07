@@ -20,14 +20,26 @@ function handleTopNavAnimation() {
 		$('#site-nav').removeClass('navbar-solid'); 
 	}
 }
+/**
+ * toggle tabs
+ * 
+*/
+
+function openDate(day) {
+  var i;
+  var x = document.getElementsByClassName("eventDay");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(day).style.display = "block";  
+}
 
 /*
  * Registration Form
 */
 
 $('#registration-form').submit(function(e){
-    e.preventDefault();
-    
+    e.preventDefault(); 
     let postForm = { //Fetch form data
             'fname'     : $('#registration-form #fname').val(),
             'lname'     : $('#registration-form #lname').val(),
@@ -67,12 +79,12 @@ $('#registration-form').submit(function(e){
 */
 
 smoothScroll.init();
-
+ 
 
 /**
  * Countdown Timer Logic
  * Author: Joseph Ridge
- */
+*/
 
 
 // Set the date we're counting down to

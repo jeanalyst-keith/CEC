@@ -293,7 +293,7 @@ ul li {
   margin: 0;
 }
 
-.navbar-custom .navbar-nav>li>a {
+.navbar-custom .navbar-nav > li > a {
   color: #fff;
   text-transform: uppercase;
   font-size: 12px;
@@ -301,13 +301,13 @@ ul li {
   border-bottom: 1px solid transparent;
 }
 
-.navbar-custom .navbar-nav>li>a:focus,
-.navbar-custom .navbar-nav>li>a:hover {
+.navbar-custom .navbar-nav > li > a:focus,
+.navbar-custom .navbar-nav > li > a:hover {
   background-color: transparent;
   border-color: rgba(255, 255, 255, 0.5);
 }
 
-.navbar-custom .navbar-nav>.active>a {
+.navbar-custom .navbar-nav > .active > a {
   border-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -348,6 +348,82 @@ start...
 Author: Joseph Ridge 
 Target: CCE Logo, nav-container
 */
+.close{
+  align-items: end;
+} 
+table{
+  background-color: #dcdcdc;
+  border-radius: 20px;
+}
+th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+th{
+  font-size: 24px;
+  color: #000;
+  
+}
+
+tr{
+  font-size: 16px;
+}
+@media screen and (max-width: 768px) {
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+
+  /* Hide the table header on smaller screens */
+  th {
+    display: none;
+  }
+
+  /* Display table rows as block elements for stacking */
+  tr {
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  /* Display table cells as block elements */
+  td {
+    display: block;
+    text-align: left;
+    border: none;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+  }
+}
+.day{
+  background-color: #fbb042;
+  color: #000;
+  width: fit-content;
+  border-radius: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.speaker-img {
+  transform: scale(0.7);
+  border-radius: 50%;
+  border-color: #cd7f32;
+  border-width: 2px;
+  object-fit: cover;
+}
+.speaker-img-min {
+  /* transform: scale(0.7) !important; */
+}
 .event-name {
   margin-top: 100px !important;
 }
@@ -429,7 +505,7 @@ hr {
   display: inline-flex;
 }
 
-.countdown>h1 {
+.countdown > h1 {
   font-size: 60px !important;
 }
 
@@ -589,11 +665,11 @@ hr {
   margin-right: auto;
 }
 
-.subtheme-title{
-font-weight: bold;
-color: #000;
-margin-top: 5px;
-margin-bottom: 5px; 
+.subtheme-title {
+  font-weight: bold;
+  color: #000;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .about-us {
@@ -641,7 +717,7 @@ margin-bottom: 5px;
   color: #000;
 }
 
-.registration-btn>a:hover {
+.registration-btn > a:hover {
   text-decoration: none;
   /* Remove underline on hover */
 }
@@ -683,7 +759,7 @@ margin-bottom: 5px;
 
 .sub-theme {
   /* display: inline; */
-  color: #000; 
+  color: #000;
 }
 
 .sub-themes {
@@ -704,34 +780,39 @@ margin-bottom: 5px;
   margin-top: auto;
   font-size: 16px;
   margin-bottom: auto;
-  margin-left: 20px;   
+  margin-left: 20px;
 }
 
 .subtheme-image {
   width: 70px;
-  height: 70px; 
+  height: 70px;
   border: 2px solid #616161;
   border-radius: 100%;
   padding: 10px;
   margin: 5px;
 }
-.maps{
-  width: 100%; 
+.maps {
+  width: 100%;
   border-radius: 20px;
 }
-.event-location{
-  padding-left: 5%; 
+.event-location {
+  padding-left: 5%;
 }
 .ion-ios-calendar {
   color: #fbb042; /* Change to your desired color */
 }
-.facts-text{
+.facts-text {
   font-weight: bold !important;
 }
-.conference-video{
-  width: 80%; 
-  margin-left: 10%; 
-}/* Reset default margin and padding */
+.conference-video {
+  width: 80%;
+  margin-left: 10%;
+}
+
+/* tab styling  */
+.tab {
+  border-color: #cd7f32;
+}
 
 /*
 end...
@@ -753,7 +834,8 @@ Target: CCE Logo, nav-container
   min-height: 100vh;
   position: relative;
   text-align: center;
-  background: url(../images/backgrounds/header.jpg) no-repeat center center/cover;
+  background: url(../images/backgrounds/header.jpg) no-repeat center
+    center/cover;
   display: table;
 }
 
@@ -912,37 +994,61 @@ Target: CCE Logo, nav-container
 }
 
 .partner .partner-box-1 {
-  background: url(../images/partner/partner-1.png) no-repeat center center/contain;
+  background: url(../images/partner/partner-1.png) no-repeat center
+    center/contain;
 }
 
 .partner .partner-box-2 {
-  background: url(../images/partner/partner-2.png) no-repeat center center/contain;
+  background: url(../images/partner/partner-2.png) no-repeat center
+    center/contain;
 }
 
 .partner .partner-box-3 {
-  background: url(../images/partner/partner-3.png) no-repeat center center/contain;
+  background: url(../images/partner/partner-3.png) no-repeat center
+    center/contain;
 }
 
 .partner .partner-box-4 {
-  background: url(../images/partner/partner-4.png) no-repeat center center/contain;
+  background: url(../images/partner/partner-4.png) no-repeat center
+    center/contain;
 }
 
 .partner .partner-box-5 {
-  background: url(../images/partner/partner-5.png) no-repeat center center/contain;
+  background: url(../images/partner/partner-5.png) no-repeat center
+    center/contain;
 }
 
 .partner .partner-box-6 {
-  background: url(../images/partner/partner-6.png) no-repeat center center/contain;
+  background: url(../images/partner/partner-6.png) no-repeat center
+    center/contain;
 }
 
 .partner .partner-box-7 {
-  background: url(../images/partner/partner-7.png) no-repeat center center/contain;
+  background: url(../images/partner/partner-7.png) no-repeat center
+    center/contain;
 }
 
 .partner .partner-box-8 {
-  background: url(../images/partner/partner-8.png) no-repeat center center/contain;
+  background: url(../images/partner/partner-8.png) no-repeat center
+    center/contain;
 }
 
+.partner .partner-box-9 {
+  background: url(../images/partner/partner-9.png) no-repeat center
+    center/contain;
+}
+.partner .partner-box-10 {
+  background: url(../images/partner/partner-10.png) no-repeat center
+    center/contain;
+}
+.partner .partner-box-11 {
+  background: url(../images/partner/partner-11.png) no-repeat center
+    center/contain;
+}
+.partner .partner-box-12 {
+  background: url(../images/partner/partner-12.png) no-repeat center
+    center/contain;
+}
 /* 
  * 6.8 Section: FAQ
  */
@@ -966,11 +1072,11 @@ Target: CCE Logo, nav-container
   content: "\f209";
 }
 
-.faq .panel-group .panel+.panel {
+.faq .panel-group .panel + .panel {
   margin-top: 15px;
 }
 
-.faq .panel-default>.panel-heading {
+.faq .panel-default > .panel-heading {
   color: #fff;
   background-color: #000000;
   border-color: #000;
@@ -978,7 +1084,7 @@ Target: CCE Logo, nav-container
   padding: 0;
 }
 
-.faq .panel-default>.panel-heading a {
+.faq .panel-default > .panel-heading a {
   position: relative;
   display: block;
   text-decoration: none;
