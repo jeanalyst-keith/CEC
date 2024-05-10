@@ -819,10 +819,7 @@ end...
 Author: Joseph Ridge 
 Target: CCE Logo, nav-container
 */
-
-.img-responsive{
-  border-radius: 5px;
-}
+ 
 
 .sessionChair >li{ 
   font-weight: normal !important;
@@ -1024,7 +1021,7 @@ Target: CCE Logo, nav-container
 }
 
 .partner .partner-box-3 {
-  background: url(../images/partner/partner-3.jpeg) no-repeat center
+  background: url(../images/partner/partner-3.png) no-repeat center
     center/contain;
 }
 
@@ -1111,6 +1108,10 @@ Target: CCE Logo, nav-container
 }
 .partner .partner-box-23 {
   background: url(../images/partner/partner-23.png) no-repeat center
+    center/contain;
+}
+.partner .partner-box-24 {
+  background: url(../images/partner/partner-24.png) no-repeat center
     center/contain;
 }
 /* 
