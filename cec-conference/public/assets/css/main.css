@@ -820,6 +820,14 @@ Author: Joseph Ridge
 Target: CCE Logo, nav-container
 */
 
+.img-responsive{
+  border-radius: 5px;
+}
+
+.sessionChair >li{ 
+  font-weight: normal !important;
+  list-style-type: none !important;
+}
 .speaker-subsection{
   color: #fff;
   font-size: 16px;
@@ -1041,7 +1049,7 @@ Target: CCE Logo, nav-container
 }
 
 .partner .partner-box-8 {
-  background: url(../images/partner/partner-8.png) no-repeat center
+  background: url(../images/partner/partner-8.jpeg) no-repeat center
     center/contain;
 }
 
