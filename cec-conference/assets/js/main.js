@@ -88,7 +88,7 @@ smoothScroll.init();
 
 
 // Set the date we're counting down to
-let countDownDate = new Date("June 27, 2024 08:00:00").getTime();
+let countDownDate = new Date("June 26, 2025 08:00:00").getTime();
 
 // Update the count down every 1 second
 let x = setInterval(function() {
